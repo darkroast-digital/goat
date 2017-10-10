@@ -1,0 +1,91 @@
+/*
+|--------------------------------------------------------------------------
+| #MODAL
+|--------------------------------------------------------------------------
+*/
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: z(higher);
+    pointer-events: none;
+
+    &__content {
+        max-height: 60%;
+        max-width: 30%;
+        overflow-y: scroll;
+        background: color(white);
+        @include shadow(heavier);
+        opacity: 0;
+        transform: translateY(6rem) scale(.9);
+        transition: all .4s ease(inOutBack);
+
+        @if ($has-radius) {
+            border-radius: radius(large);
+        }
+
+        &-header,
+        &-body,
+        &-footer {
+            padding: 1rem;
+            opacity: 0;
+            transform: translateY(1rem);
+            transition: all .4s ease(inOutBack);
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        &-header {
+            transition-delay: .1s;
+        }
+
+        &-body {
+            transition-delay: .15s;
+        }
+
+        &-footer {
+            transition-delay: .2s;
+            padding-bottom: 2rem;
+        }
+    }
+
+    &__overlay {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -10;
+        top: 0;
+        left: 0;
+        background: rgba(color(grey-darkest), .9);
+        opacity: 0;
+        transition: all .4s ease(inOutQuad);
+    }
+
+    &--open {
+        pointer-events: all;
+
+        .modal__content {
+            opacity: 1;
+            transform: none;
+
+            &-header,
+            &-body,
+            &-footer {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .modal__overlay {
+            opacity: 1;
+        }
+    }
+}

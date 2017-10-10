@@ -1,0 +1,20 @@
+/*
+|--------------------------------------------------------------------------
+| #BORDER RADIUS
+|--------------------------------------------------------------------------
+*/
+
+$radius: (
+    small: 3px,
+    medium: 5px,
+    large: 7px
+);
+
+@function radius($key) {
+    @if map-has-key($radius, $key) {
+        @return map-get($radius, $key);
+    }
+
+    @warn "Unknown `#{$key}` in $radius.";
+    @return null;
+}

@@ -1,0 +1,51 @@
+/*
+|--------------------------------------------------------------------------
+| #ALERT
+|--------------------------------------------------------------------------
+*/
+
+
+
+.alert {
+    padding: 1rem;
+    background: color(white);
+    margin-bottom: calc((#{$baseline} - #{ms(6)}) + #{$baseline * 1.5});
+    position: fixed;
+    z-index: 60;
+    bottom: 2rem;
+    right: 2rem;
+    font-weight: 900;
+    border-left: solid 5px color(black);
+    border-radius: radius(small);
+
+    @if ($has-radius) {
+        border-radius: radius(small);
+    }
+
+    &--primary {
+        color: color(primary);
+        border-left-color: color(primary);
+    }
+
+    &--secondary {
+        color: color(secondary);
+        border-left-color: color(secondary);
+    }
+
+    &--success {
+        color: color(success);
+        border-left-color: color(success);
+    }
+
+    &--error {
+        color: color(error);
+        border-left-color: color(error);
+    }
+}
+
+.flash {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    z-index: z(highest);
+}

@@ -1,0 +1,76 @@
+/*
+|--------------------------------------------------------------------------
+| #BUTTON
+|--------------------------------------------------------------------------
+*/
+
+%button,
+.button {
+    font-family: $font-two;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding: .25rem 1.5rem;
+    color: color(black);
+    background: color(white);
+    border: solid 1px color(white);
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease(inOutQuad);
+
+    @if ($has-radius) {
+        border-radius: radius(small);
+    }
+
+    @if ($has-shadow) {
+        @include shadow(raised);
+    }
+
+    &:hover {
+        background: color(primary);
+        color: color(white);
+        border-color: color(primary);
+    }
+
+    &__outline {
+        background: transparent;
+        color: color(white);
+        box-shadow: none;
+
+        &:hover {
+            color: color(white);
+        }
+    }
+
+    &__link {
+        background: transparent;
+        color: color(primary);
+        border: solid 1px transparent;
+        box-shadow: none;
+
+        &:hover {
+            background: transparent;
+            color: darken(color(primary), 10%);
+        }
+    }
+}
+
+button {
+    @extend %button;
+}
+
+button[disabled="disabled"] {
+    background: color(grey-light);
+    border: solid 1px color(grey-light);
+    color: color(grey);
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.button__group {
+
+    button,
+    .button {
+        margin-right: .5rem;
+    }
+}

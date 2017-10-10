@@ -1,0 +1,762 @@
+/*
+|--------------------------------------------------------------------------
+| #THEME
+|--------------------------------------------------------------------------
+*/
+
+* {
+    outline: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: $font-two;
+    color: color(black);
+
+    &:before {
+        content: '[ ';
+    }
+
+    &:after {
+        content: ' ]';
+    }
+}
+
+
+
+
+
+// #LOADER
+// =========================================================================
+
+$width: 100px;
+
+.loader__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: color(black);
+    z-index: z(highest);
+    transition: transform .3s ease(inOutSine);
+
+    &.is--loaded {
+        transform: translateY(-100vh);
+    }
+}
+
+.loader {
+  position: relative;
+  margin: 0 auto;
+  width: $width;
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+}
+
+.circular {
+  animation: rotate 2s linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+@keyframes color {
+  100%,
+  0% {
+    stroke: color(primary);
+  }
+  40% {
+    stroke: color(white);
+  }
+  66% {
+    stroke: color(primary);
+  }
+  80%,
+  90% {
+    stroke: color(white);
+  }
+}
+
+
+
+// #HERO
+// =========================================================================
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/hero__bg.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpoint(medium) {
+        height: 70vh;
+    }
+
+    &__content {
+        margin-top: 8rem;
+        width: 60%;
+        z-index: 30;
+        background: color(white);
+        position: relative;
+        padding: 1rem;
+        @include shadow(heavy);
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 40px;
+            height: 100%;
+            background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/slider-border.png');
+            background-position: -40px;
+            background-size: 40px 120%;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -20px;
+            width: 40px;
+            height: 100%;
+            background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/slider-border.png');
+            background-position: -40px;
+            background-size: 40px 120%;
+            transform: rotate(180deg);
+        }
+    }
+
+    .next, .prev, .slick-dots {
+        position: absolute;
+    }
+
+    .slick-dots {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        left: 50%;
+        bottom: -40px;
+        transform: translateX(-50%);
+    }
+
+    li.slick-active {
+
+        button {
+            background: color(primary);
+            border-color: color(primary);
+        }
+    }
+
+    button {
+        margin: .25rem;
+        padding: 0;
+        height: 5px;
+        width: 20px;
+    }
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.next, .prev {
+    background: rgba(color(black), .8);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: ms(7);
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000000px;
+    color: color(white);
+    cursor: pointer;
+}
+
+.prev {
+    left: -70px;
+
+    &:before {
+        margin-right: .25rem;
+    }
+}
+
+.next {
+    right: -70px;
+
+    &:before {
+        margin-left: .25rem;
+    }
+}
+
+.content__bg {
+    width: 100%;
+}
+
+
+
+// #ABOUT
+// =========================================================================
+
+.about {
+    padding: 5rem 0;
+    background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/about__bg.jpg');
+    background-size: cover;
+    position: relative;
+    text-align: right;
+
+    @include breakpoint(large) {
+        padding: 3rem 0;
+    }
+
+    &__content {
+        @include grid($display: block);
+        justify-content: flex-end;
+
+        > img {
+            max-width: 50%;
+        }
+    }
+
+    ul {
+        @include grid();
+        list-style-type: none;
+
+        @include breakpoint(medium) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    li {
+        width: 25%;
+        height: 250px;
+        padding: 1rem;
+
+        @include breakpoint(large) {
+            height: 200px;
+        }
+
+        @include breakpoint(medium) {
+            width: 50%;
+        }
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+// #FOOD
+// =========================================================================
+
+.order-online {
+    max-width: 350px;
+}
+
+.food {
+    position: relative;
+    z-index: 10;
+    background: #000000;
+    color: color(white);
+    margin-top: 65px;
+    min-height: 750px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        height: 100px;
+        width: 100%;
+        background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/menu__top.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: 10;
+        top: 100px;
+        height: calc(100%);
+        width: 100%;
+        background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/menu__bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    &__content {
+        @include grid($display: block);
+        position: relative;
+        z-index: 20;
+
+        > img {
+            max-width: 300px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.menu__item {
+    max-width: 50%;
+
+    @include breakpoint(medium) {
+        max-width: 100%;
+    }
+    
+    &-title {
+        text-transform: uppercase;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 4px;
+            left: 0;
+            height: 2px;
+            width: 100%;
+            background: url('.http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/menu__dots.png');
+            background-size: contain;
+            background-position: center center;
+        }
+
+        i {
+            font-style: normal;
+            position: relative;
+            padding: 0 .25rem;
+            z-index: 10;
+            background: #000000;
+        }
+
+        span {
+            position: relative;
+            padding: 0 .25rem;
+            z-index: 10;
+            display: block;
+            color: color(primary);
+            background: #000000;
+
+            &:before {
+                content: '$';
+                color: color(white);
+            }
+        }
+    }
+}
+
+
+
+// #WORK
+// =========================================================================
+
+.work {
+    padding: 8rem 0;
+    background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/contact__bg.jpg');
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    overflow: hidden;
+
+    @include breakpoint(medium) {
+        padding: 10rem 0 3rem;
+    }
+
+    &__trophy {
+        position: absolute;
+        z-index: 20;
+        width: 25%;
+        top: -625px;
+        left: 5%;
+
+        @include breakpoint(large) {
+            width: 32%;
+            top: -600px;
+        }
+
+        @include breakpoint(medium) {
+            display: none;
+        }
+    }
+
+    &__content {
+        @include grid($display: block);
+        justify-content: flex-end;
+
+        > img {
+            max-width: 30%;
+            margin-bottom: 2rem;
+            float: right;
+            clear: both;
+
+            @include breakpoint(medium) {
+                max-width: 60%;
+            }
+        }
+    }
+
+    p {
+        max-width: 60%;
+        float: right;
+        clear: both;
+
+        @include breakpoint(medium) {
+            max-width: 100%;
+        }
+    }
+}
+
+.specials {
+    max-width: 70%;
+    float: right;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.special {
+    width: 50%;
+    margin-bottom: 1rem;
+
+    h6 {
+        margin-bottom: 0;
+        color: color(primary);
+
+        &:before {
+            content: '[ ';
+        }
+
+        &:after {
+            content: ' ]';
+        }
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    hr {
+        margin: .5rem 0;
+        width: 5%;
+        float: right;
+        border-bottom-color: color(black);
+
+    }
+}
+
+form {
+    max-width: 60%;
+    float: right;
+    clear: both;
+
+    @include breakpoint(medium) {
+        max-width: 100%;
+    }
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+    input {
+        width: calc(50% - 1rem);
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        font-family: $font-two;
+        text-align: right;
+        background: rgba(color(white), .8);
+        border: solid 2px color(grey);
+        color: color(primary);
+
+        &::placeholder {
+            color: color(primary);
+        }
+
+        &:nth-of-type(even) {
+            width: 50%;
+            margin-right: 0;
+        }
+    }
+}
+
+label {
+    background: color(grey-light);
+    color: color(white);
+    padding: .5rem;
+    min-width: 400px;
+    text-align: right;
+    font-family: $font-two;
+    box-shadow: inset -1px -1px 4px 0 rgba(color(grey-darkest), .3);
+    border: solid 2px color(grey);
+    cursor: pointer;
+
+    @include breakpoint(medium) {
+        min-width: 100%;
+    }
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    box-shadow: inset -1px -1px 4px 0 rgba(darken(color(primary), 20%), .6);
+    border: solid 2px color(grey-dark);
+    background: #D07141;
+    color: color(white);
+}
+
+
+
+// #CONTACT
+// =========================================================================
+
+.contact {
+    background: color(primary);
+    position: relative;
+    z-index: 10;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: -40px;
+        z-index: -10;
+        height: 40px;
+        width: 100%;
+        background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/hours__top.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        z-index: -10;
+        height: 50px;
+        width: 100%;
+        background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/hours__bottom.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        color: color(white);
+    }
+
+    &__content {
+        @include grid();
+
+        @include breakpoint(medium) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-left {
+            width: 50%;
+            padding: 2rem;
+            margin-top: 6rem;
+
+            @include breakpoint(medium) {
+                order: 2;
+                margin-top: 0;
+                width: 100%;
+                padding-top: 0;
+            }
+
+            li {
+                text-transform: uppercase;
+                font-weight: bold;
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: 4px;
+                    left: 0;
+                    height: 2px;
+                    width: 100%;
+                    background: url('http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/menu__dots.png');
+                    background-size: contain;
+                    background-position: center center;
+                }
+
+                strong,
+                span {
+                    padding: 0 .25rem;
+                    background: color(primary);
+                    position: relative;
+                    z-index: 10;
+                }
+            }
+        }
+
+        &-right {
+            width: 50%;
+            padding: 2rem;
+            text-align: right;
+
+            @include breakpoint(medium) {
+                order: 1;
+                width: 100%;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-bottom: 1rem;
+            }
+
+            img {
+                max-width: 300px;
+                margin-left: 1rem;
+
+                @include breakpoint(medium) {
+                    max-width: 200px;
+                }
+            }
+        }
+    }
+}
+
+
+
+// #MAP
+// =========================================================================
+
+.map {
+    height: 300px;
+}
+
+// #FOOTER
+// =========================================================================
+
+.footer {
+    background: #000000;
+    padding: 2rem 0;
+
+    &__content {
+        @include grid();
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+
+        @include breakpoint(medium) {
+            display: block;
+        }
+    }
+
+    a {
+        padding: .5rem;
+        color: color(white);
+    }
+
+    &__nav {
+
+        a {
+            font-family: $font-two;
+
+            &:before {
+                content: '[ ';
+            }
+
+            &:after {
+                content: ' ]';
+            }
+        }
+    }
+}
+
+.coming-soon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 500;
+    transform: translateY(-50%);
+    max-width: 1000px !important;
+    height: 400px !important;
+    @include shadow(heavy);
+
+    @include breakpoint(medium) {
+        height: 300px !important;
+    }
+}

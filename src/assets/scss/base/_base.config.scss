@@ -1,0 +1,112 @@
+/*
+|--------------------------------------------------------------------------
+| #CONFIG
+|--------------------------------------------------------------------------
+*/
+
+
+
+// #CONFIG COLORS
+// =========================================================================
+
+    // Theme
+    $primary: #CA4E26;
+    $secondary: #14326C;
+    $accent: #FDB557;
+
+    // Utility
+    $error: #F04F54;
+    $success: #43CB9D;
+
+    // Greys
+    $grey: #ADB5BD;
+
+    $grey-light: #DEE2E6;
+    $grey-lighter: #E9ECEF;
+    $grey-lightest: #F8F8F8;
+
+    $grey-dark: #495057;
+    $grey-darker: #343A40;
+    $grey-darkest: #212529;
+
+    $white: #ffffff;
+    $black: #18161c;
+
+
+
+// #CONFIG TYPOGRAPHY
+// =========================================================================
+
+    // Fonts
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+    $font-one: 'Open Sans';
+    $font-two: 'Roboto Slab';
+    $font-mono: 'Monospace';
+
+    // Font Size
+    $font-size: 1rem;
+
+    // Colors
+    $font-color: $grey-dark;
+    $heading-color: $grey-darker;
+
+    //Heading Weight
+    $heading-weight: bold;
+
+    // Options
+
+    $ms-ratio  : 1.125 !default;
+    $ms-base   : $font-size;
+    $ms-scale  : 3 !default;
+
+
+
+// #CONFIG SHADOW
+// =========================================================================
+
+    $has-shadow: true !default;
+
+
+
+// #CONFIG RADIUS
+// =========================================================================
+
+
+    $has-radius: false !default;
+
+
+
+// #CONFIG NAV
+// =========================================================================
+
+    $nav-is-right: true !default;
+    $nav-is-fixed: true !default;
+
+// #CONFIG BREAKPOINTS
+// =========================================================================
+
+    $small: 30em; // 480px
+    $medium: 48em; // 768px
+    $large: 90em; // 1440px
+    $extra-large: 120em; // 1920px
+
+
+
+// #CONFIG GRID
+// =========================================================================
+
+    $gutter: 1rem;
+
+
+
+// #CONFIG Z-INDEX
+// =========================================================================
+
+    $lower: 0;
+    $low: 20;
+    $middle: 40;
+    $high: 60;
+    $higher: 80;
+    $highest: 100;

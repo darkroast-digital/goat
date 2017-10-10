@@ -1,0 +1,143 @@
+/*
+|--------------------------------------------------------------------------
+| #GRID
+|--------------------------------------------------------------------------
+*/
+
+
+
+$percents: (
+    one: 8.33333333%,
+    two: 16.66666667%,
+    three: 25%,
+    four: 33.33333333%,
+    five: 41.66666667%,
+    six: 50%,
+    seven: 58.33333333%,
+    eight: 66.66666667%,
+    nine: 75%,
+    ten: 83.33333333%,
+    eleven: 91.66666667%,
+    twelve: 100%
+);
+
+@function percent($key) {
+    @if map-has-key($percents, $key) {
+        @return map-get($percents, $key);
+    }
+
+    @warn "Unknown `#{$key}` in $percents.";
+    @return null;
+}
+
+@mixin grid($display: flex, $maw: 80%, $direction: row) {
+    max-width: $maw;
+    margin: 0 auto;
+    display: $display;
+    flex-wrap: wrap;
+    flex-direction: $direction;
+
+    @include breakpoint(medium) {
+        display: block;
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    > [class^="column-"] {
+
+        @include breakpoint(medium) {
+            width: 100%;
+        }
+    }
+
+    &.grid__gapless {
+        > .column {
+            margin: 0;
+        }
+    }
+}
+
+.grid {
+    @include grid();
+}
+
+.column-1,
+%column-1 {
+    width: calc(#{percent(one)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-2,
+%column-2 {
+    width: calc(#{percent(two)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-3,
+%column-3 {
+    width: calc(#{percent(three)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-4,
+%column-4 {
+    width: calc(#{percent(four)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-5,
+%column-5 {
+    width: calc(#{percent(five)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-6,
+%column-6 {
+    width: calc(#{percent(six)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-7,
+%column-7 {
+    width: calc(#{percent(seven)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-8,
+%column-8 {
+    width: calc(#{percent(eight)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-9,
+%column-9 {
+    width: calc(#{percent(nine)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-10,
+%column-10 {
+    width: calc(#{percent(ten)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-11,
+%column-11 {
+    width: calc(#{percent(eleven)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.column-12,
+%column-12 {
+    width: calc(#{percent(twelve)} - #{$gutter});
+    margin: $gutter/2;
+}
+
+.container {
+    @include grid();
+}
+
+.container.is__full {
+    @include grid($maw: 100%);
+}
