@@ -153,31 +153,31 @@
                             <li data-tab="5">Salads</li>
                             <li data-tab="6">Apps</li>
                             <li data-tab="7">Burgers</li>
-                            <li data-tab="8">Desserts</li>
+                            <li data-tab="8">T.K.O. Desserts</li>
                             <li data-tab="9">Drinks</li>
                         </ul>
                     </nav>
                     <div class="tab__body">
                         <div data-tab="1" class="tab__content">
+                            <p>Served Saturday & Sunday until 1:00pm</p>
                             <div class="menu__item">
-                                <p>Served Saturday & Sunday</p>
                                 <div class="menu__item-title"><i>The Hangover</i> <span>10</span></div>
                                 <p>2 eggs. bacon. sausage. tater tots. toast.</p>
                             </div>
 
                             <div class="menu__item">
+                                <div class="menu__item-title"><i>B.E.L.T. Sandwich</i> <span>10</span></div>
+                                <p>fried egg. bacon. cheddar. lettuce. tomato. truffle aioli.</p>
+                            </div>
+
+                            <div class="menu__item">
                                 <div class="menu__item-title"><i>Breakfast Burrito</i> <span>11</span></div>
-                                <p>Scrambled eggs. chorizo. cheddar. cilantro sour cream. Soft tortilla.</p>
+                                <p>scrambled eggs. chorizo. cheddar. cilantro sour cream. soft tortilla.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Stuffed French Toast</i> <span>12</span></div>
-                                <p>Brioche bread. Cream cheese filling. Raspberry coulis.</p>
-                            </div>
-
-                            <div class="menu__item">
-                                <div class="menu__item-title"><i>Sweet Potato Pancakes</i> <span>11</span></div>
-                                <p>whipped cream. spiced maple syrup.</p>
+                                <p>cream cheese filling. raspberry coulis.</p>
                             </div>
 
                             <div class="menu__item">
@@ -186,116 +186,144 @@
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Huevos Rancheros </i> <span>13</span></div>
-                                <p>two fried corn tortillas. baked eggs. refried beans. pico de gallo. chedda. red pepper. avocado.</p>
+                                <div class="menu__item-title"><i>Stacked Pancakes</i> <span>11</span></div>
+                                <p>raspberry coulis. spiced maple syrup. whipped cream.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>the G.O.A.T. skillet </i> <span>13</span></div>
+                                <div class="menu__item-title"><i>Huevos Rancheros </i> <span>13</span></div>
+                                <p>two fried corn tortillas. over easy eggs. refried beans. pico de gallo. cheddar. red pepper. avocado.</p>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-title"><i>The G.O.A.T. skillet </i> <span>13</span></div>
                                 <p>2 eggs. bacon. peameal bacon. sausage. peppers. onions. cheddar. tater tots.</p>
                             </div>
 
                             <p>Bacon 4 / Sausage 4 / Toast 4 / Tater Tots 4 / Peameal Bacon 4</p>
                         </div>
                         <div data-tab="2" class="tab__content">
+                            <p>All you can eat chicken wings every Tuesday & Thursday!</p>
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>One Lb</i> <span>14</span></div>
-                                <p>mild. hot. jamaican jerk. asian. buffalo blue thai. parmesan truffle. salt & pepper. cajun. lemon pepper. dill pickle.</p>
+                                <p>mild. hot. jamaican jerk. asian. buffalo blue. thai. parmesan truffle. salt & pepper. cajun. lemon pepper. dill pickle. salt and vinegar. honey garlic. bull and barrel sauce. G.O.A.T. sauce.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Two Lbs</i> <span>22</span></div>
-                                <p>mild. hot. jamaican jerk. asian. buffalo blue thai. parmesan truffle. salt & pepper. cajun. lemon pepper. dill pickle.</p>
+                                <p>mild. hot. jamaican jerk. asian. buffalo blue. thai. parmesan truffle. salt & pepper. cajun. lemon pepper. dill pickle. salt and vinegar. honey garlic. bull and barrel sauce. G.O.A.T. sauce.</p>
                             </div>
                         </div>
                         <div data-tab="3" class="tab__content">
+                            <p>All sandwiches come with your choice of fries or house salad.</p>
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>MVP Club</i> <span>15</span></div>
-                                <p>chicken. bacon. lettuce. avocado. truffle aioli. havarti.</p>
+                                <p>chicken. bacon. lettuce. guacamole. truffle aioli. havarti.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Italian Stallion Sausage</i> <span>13</span></div>
-                                <p>provolone. roasted red pepper. onion. marinara</p>
-                            </div>
-
-                            <div class="menu__item">
-                                <div class="menu__item-title"><i>Ahi Tuna</i> <span>16</span></div>
-                                <p>blackened tuna. wasabi aioli. lettuce. tomato.</p>
+                                <div class="menu__item-title"><i>Lobster Sandwich</i> <span>14</span></div>
+                                <p>chilled atlantic lobster. aioli. lettuce. tomato.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Crispy Chicken</i> <span>15</span></div>
-                                <p>G.O.A.T. sauce. panko breast. havarti. lettuce. tomato.</p>
+                                <p>panko breaded breast. G.O.A.T. sauce. havarti. lettuce. tomato.</p>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-title"><i>Shaved Beef Sandwich</i> <span>16</span></div>
+                                <p>slow roasted aaa beef. caramelized onion. red pepper. havarti. jus.</p>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-title"><i>Italian Stallion Sandwich</i> <span>13</span></div>
+                                <p>sausage. havarti. roasted red pepper. onion. marinara</p>
+                                <p><i>We are proud to serve product from Robbies Gourmet Sausage Company in Walkerville</i></p>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-title"><i>Tuna Sandwich</i> <span>16</span></div>
+                                <p>blackened ahi tuna filet. lettuce. tomato. wasabi aioli.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Shrimp Taco</i> <span>13</span></div>
-                                <p>grilled shrimp. slaw. chipotle aioli. avocado. pineapple salsa.</p>
+                                <p>sauteed shrimp. slaw. chipotle aioli. pineapple salsa. guacamole. cilantro sour cream.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Meatloaf</i> <span>15</span></div>
-                                <p>cheddar. lettuce. tomato. bacon. chipotle mayo.</p>
+                                <div class="menu__item-title"><i>Meatloaf Sandwich</i> <span>15</span></div>
+                                <p>cheddar. lettuce. tomato. bacon. chipotle aioli.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Cajun Pasta</i> <span>20 🔥Spicy!</span></div>
-                                <p>shrimp. chorizo. mushrooms. bell peppers. cream.</p>
+                                <p>fresh pasta. shrimp. chorizo. onion. mushrooms. cream.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Steak Frites</i> <span>22</span></div>
-                                <p>petite tenderloin. chimichurri. fries. seasonal vegetables</p>
+                                <div class="menu__item-title"><i>Short Ribs</i> <span>22</span></div>
+                                <p>braised short rib. seasonal vegetables. waffle fries. gravy.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Kitchen Sink Mac & Cheese</i> <span>16</span></div>
                                 <p>chicken. mushroom. bacon. peppers. panko crust.</p>
                             </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-title"><i>Pesto Pasta</i> <span>16</span></div>
+                                <p>fresh pasta. chicken. basil pesto. parmesan.</p>
+                            </div>
                         </div>
                         <div data-tab="4" class="tab__content">
                             <p>All sandwiches come with your choice of fries or house salad.</p>
 
                             <div class="menu__item">
+                                <div class="menu__item-title"><i>Nachos</i> <span>17 SHAREABLE</span></div>
+                                <p>cheese. lettuce. pico de gallo. black olive. jalapenos. black beans. guacamole. G.O.A.T. sauce. add chicken or beef for $4.</p>
+                            </div>
+
+                            <div class="menu__item">
                                 <div class="menu__item-title"><i>Caesar Chavez</i> <span>10</span></div>
-                                <p>garlic croutons. house made dressing. bacon. parmesan cheese.</p>
+                                <p>crispy croutons. house made dressing. bacon. parmesan cheese.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>The G.O.A.T. House</i> <span>10</span></div>
-                                <p>greens. cherry tomato. bell pepper. red onion. panko crusted goat cheese.</p>
+                                <div class="menu__item-title"><i>The Greek</i> <span>10</span></div>
+                                <p>romaine. goat feta. beets. cucumber. cherry tomato. black olives. oregano dressing.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Italian Sausage Hoagie</i> <span>13</span></div>
-                                <p>provolone. roasted peppers. onion. marinara.</p>
+                                <div class="menu__item-title"><i>MVP Club</i> <span>15</span></div>
+                                <p>chicken. bacon. lettuce. guacamole. truffle aioli. havarti.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Shaved Beef Sandwich</i> <span>16</span></div>
-                                <p>caramelized onion. peppers. havarti.</p>
+                                <p>slow roasted aaa beef. caramelized onion. red pepper. havarti. jus.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Crispy Chicken</i> <span>15</span></div>
-                                <p>G.O.A.T. sause. panko breast. havarti. lettuce. tomato.</p>
+                                <div class="menu__item-title"><i>Crispy Chicken Sandwich</i> <span>15</span></div>
+                                <p>panko breaded breast. G.O.A.T. sauce. havarti. lettuce. tomato.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Meatloaf</i> <span>15</span></div>
-                                <p>cheddar. lettuce. tomato. bacon. chipotle mayo.</p>
+                                <div class="menu__item-title"><i>Meatloaf Sandwich</i> <span>15</span></div>
+                                <p>cheddar. lettuce. tomato. bacon. chipotle aioli.</p>
                             </div>
                         </div>
                         <div data-tab="5" class="tab__content">
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Caeser Chavez</i> <span>10</span></div>
-                                <p>garlic croutons. house made dressing. bacon. parmesan cheese.</p>
+                                <p>crispy croutons. house made dressing. bacon. parmesan cheese.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>The Replacement</i> <span>11</span></div>
-                                <p>baby kale. bacon. onion. tomato. avocado. chopped chicken. dijon shallot dressing.</p>
+                                <div class="menu__item-title"><i>The Greek</i> <span>10</span></div>
+                                <p>romaine. goat feta. beets. cucumber. cherry tomato. black olives. oregano dressing.</p>
                             </div>
 
                             <div class="menu__item">
@@ -304,18 +332,18 @@
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Green Monster</i> <span>12</span></div>
-                                <p>iceberg wedge. smokey bacon. tomato. pickled green beans.</p>
+                                <div class="menu__item-title"><i>Tuna Sashimi Salad</i> <span>14</span></div>
+                                <p>ahi tuna. julienne vegetables. greens. ponzu vinaigrette.</p>
                             </div>
 
                             <div class="menu__item">
-                                <p><strong>Dressings:</strong> grapefruit vinaigrette. horseradish ranch. white balsamic. buttermilk ranch. blue cheese.</p>
+                                <p><strong>Dressings:</strong> grapefruit vinaigrette. horseradish ranch. white balsamic. buttermilk ranch. blue cheese. G.O.A.T. sauce.</p>
                                 <p>add chicken to any salad for $4</p>
                             </div>
                         </div>
                         <div data-tab="6" class="tab__content">
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Golf Tees</i> <span>9</span></div>
+                                <div class="menu__item-title"><i>Golf Tees</i> <span>10</span></div>
                                 <p>pickle fries. G.O.A.T sauce</p>
                             </div>
 
@@ -325,50 +353,56 @@
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Packers Dip</i> <span>13</span></div>
-                                <p>pretzel bites. nachoes. cheddar & ale fondue.</p>
+                                <div class="menu__item-title"><i>Artichoke Dip</i> <span>13</span></div>
+                                <p>cream cheese. artichoke. jalapenos. pretzel bites. nachos.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Nachos</i> <span>17</span></div>
-                                <p>cheese. lettuce. tomato. black olive. jalapenos. black beans. add chicken or beef for $4.</p>
+                                <div class="menu__item-title"><i>Zip Shrimp</i> <span>14</span></div>
+                                <p>sauteed tiger shrimp. michigan zip sauce.</p>
+                            </div>
+
+                            <div class="menu__item">
+                                <div class="menu__item-title"><i>Nachos</i> <span>17 SHAREABLE</span></div>
+                                <p>cheese. lettuce. pico de gallo. black olive. jalapenos. black beans. guacamole. G.O.A.T. sauce. add chicken or beef for $4.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Tuna Poke Tacos</i> <span>14</span></div>
-                                <p>wonton. lettuce. wasabi aioli. cilantro sour cream. sweet soy glaze.</p>
+                                <p>ahi tuna. wonton cup. lettuce. cilantro sour cream. sweet soy glaze.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Poutine</i> <span>14</span></div>
-                                <p>short ribs. cheese curds. gravy.</p>
+                                <div class="menu__item-title"><i>G.O.A.T. Poutine</i> <span>14</span></div>
+                                <p>braised short ribs. cheese curds. house made gravy.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Fry Caddy</i> <span>6</span></div>
-                                <p>tater tots. shoestring. onion rings.</p>
+                                <p>tater tots. waffle fry. onion rings.</p>
                             </div>
                         </div>
                         <div data-tab="7" class="tab__content">
+                            <p>All burgers come with your choice of fries or house salad.</p>
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>G.O.A.T. Burger</i> <span>12 [5.oz single] </span><span>16 [5.oz double]</span></div>
-                                <p>havarti. lettuce. onion. bacon. pickle. G.O.A.T sauce.</p>
+                                <p>havarti. lettuce. caramelized onion. bacon. pickle. G.O.A.T sauce.</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>All American</i> <span>12 [5.oz single] </span><span>16 [5.oz double]</span></div>
-                                <p>short rib. cheddar. jack daniels BBQ sauce. onion ring.</p>
+                                <p>short rib. cheddar. jack daniels bbq. onion ring. lettuce. tomato.e</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Baja Burger</i> <span>12 [5.oz single] </span><span>16 [5.oz double]</span></div>
                                 <p>
-                                    panko breaded avocado. pico de gallo. cilantro. pineapple salsa. sour cream.
+                                    guacamole. pico de gallo. cilantro sour cream. pineapple salsa. lettuce. tomato.
                                 </p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i></i> <span>13</span></div>
+                                <div class="menu__item-title"><i>Veggie Burger</i> <span>13</span></div>
                                 <p>double portabello cap. havarti. crispy onion. lettuce. tomato. G.O.A.T. sauce.</p>
                             </div>
                         </div>
@@ -376,7 +410,7 @@
                         <div data-tab="8" class="tab__content">
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Sundae Night Excites</i> <span>8</span></div>
-                                <p>vanilla ice cream. warm double chocolate brownie. house made salted caramel. fidge. Goat Corn.</p>
+                                <p>vanilla ice cream. warm double chocolate brownie. chocolate sauce. mixed nuts.</p>
                             </div>
 
                             <div class="menu__item">
@@ -418,12 +452,12 @@
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><span>35 / bottle</span></div>
-                                <p>Graf igna Pinot Grigio / $9 By The Glass | Jackson-Triggs Chardonnay / $9 By The Glass | White Cliff, Sauvignon Blanc 2016, New Zealand / $9 By The Glass</p>
+                                <p>Graffigna Pinot Grigio / $9 By The Glass | Jackson-Triggs Chardonnay / $9 By The Glass | White Cliff, Sauvignon Blanc 2016, New Zealand / $9 By The Glass</p>
                             </div>
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><span>45 / bottle</span></div>
-                                <p>Santa Margherita, IT 14, Pinot Grigio | Toasted Head Chardonnay, 2015, California | Oyster Bay, Sauvignon Blanc | Conterra Chardonnay, 2014, Organic, California</p>
+                                <p>Santa Margherita, IT 14, Pinot Grigio | Toasted Head Chardonnay, 2015, California | Oyster Bay, Sauvignon Blanc | Bonterra Chardonnay, 2014, Organic, California</p>
                             </div>
 
                             <div class="menu__item">
@@ -445,7 +479,7 @@
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><span>75 / bottle</span></div>
-                                <p>Fireston, Syrah, 2013, California | Mission Hill Reserve, Shiraz, 2013, Okanagan Valley, BC | Beringer, Knights Valley Cabernet Sauvignon | Stags Leap, Cabernet Sauvignon, 2014, CA</p>
+                                <p>Firestone, Syrah, 2013, California | Mission Hill Reserve, Shiraz, 2013, Okanagan Valley, BC | Beringer, Knights Valley Cabernet Sauvignon | Stags Leap, Cabernet Sauvignon, 2014, CA</p>
                             </div>
 
                             <div class="menu__item">
@@ -473,11 +507,11 @@
 
                             <h3>Draft Beer</h3>
 
-                            <p>Budweiser | Bud Light | Labatt Blue | Michelob Ultra | Rolling Rock | Keith's | Keith's Red | Shock Top | Goose Island IPA | Goose Island Honker's Ale | Mill Street Cider | Mill Street Organic | Mill Street Cobblestrone | Stella ARtois</p>
+                            <p>Budweiser | Bud Light | Labatt Blue | Michelob Ultra | Rolling Rock | Keith's | Keith's Red | Shock Top | Goose Island IPA | Goose Island Honker's Ale | Mill Street Cider | Mill Street Organic | Mill Street Cobblestrone | Stella Artois</p>
 
                             <h3>Bottled Beer</h3>
 
-                            <p>Budweiser | Bud Light | Labatt Blue | Labatt Blue Light | Keith's | Keith's Red | Michelob Ultra | Mill Street Orgainic | Bud Light Lime | Bud Light Apple | Bud Light Raddler (Can) | Stella Artois | Corona</p>
+                            <p>Budweiser | Bud Light | Labatt Blue | Labatt Blue Light | Keith's | Keith's Red | Michelob Ultra | Mill Street Orgainic | Bud Light Lime | Bud Light Apple | Bud Light Raddler (Can) | Stella | Corona</p>
                         </div>
                     </div>
                 </div>
