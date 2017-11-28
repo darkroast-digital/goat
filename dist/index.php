@@ -111,13 +111,13 @@
 
         <header class="hero" id="home">
             <div class="hero__content">
-                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/mon.jpg" draggable="false"></div>
-                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/tues.jpg" draggable="false"></div>
-                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/weds.jpg" draggable="false"></div>
-                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/thurs.jpg" draggable="false"></div>
-                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/fri.jpg" draggable="false"></div>
-                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/sat.jpg" draggable="false"></div>
-                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/sun.jpg" draggable="false"></div>
+                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1509376640/specials/mon.jpg" draggable="false"></div>
+                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1509376640/specials/tues.jpg" draggable="false"></div>
+                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1509376642/specials/weds.jpg" draggable="false"></div>
+                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1509376641/specials/thurs.jpg" draggable="false"></div>
+                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1509376640/specials/fri.jpg" draggable="false"></div>
+                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1509376640/specials/sat.jpg" draggable="false"></div>
+                <div class="slide"><img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1509376642/specials/sun.jpg" draggable="false"></div>
             </div>
         </header>
 
