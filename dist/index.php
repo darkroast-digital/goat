@@ -22,6 +22,7 @@
 
     <title>The G.O.A.T [Tap and Eatery]</title>
     <meta name="description" content="The G.O.A.T brings together the casual atmosphere of a sports bar with the creative menu of a gastro-pub to the heart of LaSalle.">
+    <meta name="keywords" content="goat, lasalle, windsor, ontario, casual, sports bar, creative menu, gastro-pub, wings, burgers, sandwiches">
 
     <!-- Favicons -->
 
@@ -126,7 +127,7 @@
         <section class="about" id="about">
             <div class="about__content">
                 <img src="http://res.cloudinary.com/darkroast-digital/image/upload/v1505742217/Goat/about__title.png" alt="About The G.O.A.T.">
-                <h2>Your New Favourite Local Spot</h2>
+                <h1>[Your New Favourite Local Spot]</h1>
                 <p>The G.O.A.T brings together the casual atmosphere of a sports bar with the creative menu of a gastro-pub to the heart of LaSalle. Enjoy a family friendly sports venue offering food &amp; drink with classic twists on popular bar food prepared fresh from our culinary team. Our menu selection doesn’t stop at delicious wings, burgers and sandwiches; but also features steak and seafood.</p>
                 <p>With a contemporary décor surrounded by memorabilia from some of the Greatest Athletes Of All Time, the atmosphere encourages you to kick back, relax and enjoy a cold beer (or a glass of wine) and a delicious meal. Catch every sporting event on our 16 HD TV’s surrounding the perimeter of the restaurant, along with a spectacular outdoor patio boasting your favourite back-yard games, the G.O.A.T is sure to impress all sports fans &amp; foodies alike.</p>
             </div>
