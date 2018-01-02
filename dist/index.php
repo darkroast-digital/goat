@@ -147,12 +147,12 @@
                 <div class="tabs">
                     <nav class="tab__nav">
                         <ul>
-                            <li data-tab="1">Breakfast</li>
+                            <li data-tab="1">Breakfast of Champions</li>
                             <li data-tab="2">Chicken Wings</li>
                             <li data-tab="3">All Star Eats</li>
                             <!-- <li data-tab="4">Sandwiches & Salads</li> -->
                             <li data-tab="5">Salads</li>
-                            <li data-tab="6">Apps</li>
+                            <li data-tab="6">Grand Slam Apps</li>
                             <li data-tab="7">Burgers</li>
                             <li data-tab="8">T.K.O. Desserts</li>
                             <li data-tab="9">Drinks</li>
@@ -160,24 +160,24 @@
                     </nav>
                     <div class="tab__body">
                         <div data-tab="1" class="tab__content">
-                            <p>Served Saturday & Sunday until 1:00pm</p>
+                            <p>Served Saturday & Sunday from 10:00am until 1:00pm</p>
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>The Hangover</i> <span>10</span></div>
+                                <div class="menu__item-title"><i>The Hangover</i> <span>10.99</span></div>
                                 <p>2 eggs. bacon. sausage. tater tots. toast.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Eggs Benny</i> <span>14</span></div>
+                                <div class="menu__item-title"><i>Eggs Benny</i> <span>14.99</span></div>
                                 <p>poached eggs. peameal bacon. english muffin. hollandaise.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Stacked Pancakes</i> <span>11</span></div>
+                                <div class="menu__item-title"><i>Stacked Pancakes</i> <span>11.99</span></div>
                                 <p>raspberry coulis. spiced maple syrup. whipped cream.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>The G.O.A.T. skillet </i> <span>13</span></div>
+                                <div class="menu__item-title"><i>The G.O.A.T. skillet </i> <span>13.99</span></div>
                                 <p>2 eggs. bacon. peameal bacon. sausage. peppers. onions. cheddar. tater tots.</p>
                             </div>
 
@@ -186,13 +186,13 @@
                         <div data-tab="2" class="tab__content">
                             <p>All you can eat chicken wings every Tuesday & Thursday!</p>
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>One Lb</i> <span>14</span></div>
+                                <div class="menu__item-title"><i>One Lb</i> <span>14.99</span></div>
                                 <p>Sauces: mild. hot. blue cheese. asian. buffalo blue. thai. honey garlic. bull and barrel sauce. hot & sweet garlic. G.O.A.T. sauce.</p>
                                 <p>Dry Rubs: parmesan truffle. salt & pepper. cajun. lemon pepper. dill pickle. salt and vinegar. smoked applewood.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Two Lbs</i> <span>22</span></div>
+                                <div class="menu__item-title"><i>Two Lbs</i> <span>25.99</span></div>
                                 <p>Sauces: mild. hot. blue cheese. asian. buffalo blue. thai. honey garlic. bull and barrel sauce. hot & sweet garlic. G.O.A.T. sauce.</p>
                                 <p>Dry Rubs: parmesan truffle. salt & pepper. cajun. lemon pepper. dill pickle. salt and vinegar. smoked applewood.</p>
                             </div>
@@ -200,78 +200,78 @@
                         <div data-tab="3" class="tab__content">
                             <p>All sandwiches come with your choice of fries, soup or house salad.  Upgrade to sweet potato fries, caesar salad or greek salad for $2</p>
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>MVP Club</i> <span>16</span></div>
+                                <div class="menu__item-title"><i>MVP Club</i> <span>16.99</span></div>
                                 <p>chicken. bacon. lettuce. guacamole. truffle aioli. havarti.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Lobster Sandwich</i> <span>16</span></div>
+                                <div class="menu__item-title"><i>Lobster Sandwich</i> <span>16.99</span></div>
                                 <p>chilled atlantic lobster. aioli. lettuce. tomato.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Crispy Chicken</i> <span>15</span></div>
+                                <div class="menu__item-title"><i>Crispy Chicken</i> <span>15.99</span></div>
                                 <p>panko breaded breast. G.O.A.T. sauce. havarti. lettuce. tomato.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Roasted Turkey Sandwich</i> <span>14</span></div>
+                                <div class="menu__item-title"><i>Roasted Turkey Sandwich</i> <span>15.99</span></div>
                                 <p>turkey breast. cranberry relish. mayo. lettuce. savoury stuffing</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Hawaiian Chicken Sandwich</i> <span>16</span></div>
+                                <div class="menu__item-title"><i>Hawaiian Chicken Sandwich</i> <span>14.99</span></div>
                                 <p>sautéed chicken. pineapple salsa. lettuce. tomato. cilantro sour cream.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Shaved Beef Sandwich</i> <span>16</span></div>
+                                <div class="menu__item-title"><i>Shaved Beef Sandwich</i> <span>16.99</span></div>
                                 <p>slow roasted aaa beef. caramelized onion. red pepper. havarti. jus.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Italian Stallion Sandwich</i> <span>13</span></div>
+                                <div class="menu__item-title"><i>Italian Stallion Sandwich</i> <span>14.99</span></div>
                                 <p>sausage. havarti. roasted red pepper. onion. marinara</p>
                                 <p><i>We are proud to serve product from Robbies Gourmet Sausage Company in Walkerville</i></p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Tuna Sandwich</i> <span>16</span></div>
+                                <div class="menu__item-title"><i>Tuna Sandwich</i> <span>16.99</span></div>
                                 <p>blackened ahi tuna filet. lettuce. tomato. wasabi aioli.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Roasted Veggie Wrap</i> <span>13</span></div>
+                                <div class="menu__item-title"><i>Roasted Veggie Wrap</i> <span>13.99</span></div>
                                 <p>quinoa. havarti. balsamic dressing. </p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Shrimp Taco</i> <span>14</span></div>
+                                <div class="menu__item-title"><i>Shrimp Taco</i> <span>14.99</span></div>
                                 <p>sautéed shrimp. slaw. chipotle aioli. pineapple salsa. guacamole. cilantro sour cream.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Meatloaf Sandwich</i> <span>16</span></div>
+                                <div class="menu__item-title"><i>Meatloaf Sandwich</i> <span>16.99</span></div>
                                 <p>cheddar. lettuce. tomato. bacon. chipotle aioli.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Ribs</i> <span>Full Rack/28 Half Rack/19</span></div>
+                                <div class="menu__item-title"><i>Ribs</i> <span>Full Rack/28.99 Half Rack/19.99</span></div>
                                 <p>st louis cut. jack daniels bbq. coleslaw.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Kitchen Sink Mac & Cheese</i> <span>16</span></div>
+                                <div class="menu__item-title"><i>Kitchen Sink Mac & Cheese</i> <span>16.99</span></div>
                                 <p>chicken. mushroom. bacon. peppers. panko crust.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Pesto Pasta</i> <span>16</span></div>
+                                <div class="menu__item-title"><i>Pesto Pasta</i> <span>16.99</span></div>
                                 <p>fresh pasta. chicken. basil pesto. parmesan.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Cajun Pasta</i> <span>20 🔥Spicy!</span></div>
+                                <div class="menu__item-title"><i>Cajun Pasta</i> <span>20.99 🔥Spicy!</span></div>
                                 <p>fresh pasta. shrimp. chorizo. onion. mushrooms. cream.</p>
                             </div>
                         </div>
@@ -315,22 +315,22 @@
                         </div>
                         <div data-tab="5" class="tab__content">
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Caeser Chavez</i> <span>10</span></div>
-                                <p>crispy croutons. house made dressing.bacon. parmesan cheese.</p>
+                                <div class="menu__item-title"><i>Caeser Chavez</i> <span>10.99</span></div>
+                                <p>crispy croutons. house made dressing. bacon. parmesan cheese.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>The Greek</i> <span>10</span></div>
+                                <div class="menu__item-title"><i>The Greek</i> <span>10.99</span></div>
                                 <p>romaine. goat feta. beets. cucumber. cherry tomato. black olives. oregano dressing.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>The G.O.A.T House</i> <span>12</span></div>
+                                <div class="menu__item-title"><i>The G.O.A.T House</i> <span>12.99</span></div>
                                 <p>greens. cherry tomato. bell pepper. red onion. panko crusted goat cheese. balsamic dressing.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Tuna Sashimi Salad</i> <span>15</span></div>
+                                <div class="menu__item-title"><i>Tuna Sashimi Salad</i> <span>15.99</span></div>
                                 <p>ahi tuna. julienne vegetables. greens. ponzu vinaigrette.</p>
                             </div>
 
@@ -339,59 +339,59 @@
                         </div>
                         <div data-tab="6" class="tab__content">
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Golf Tees</i> <span>10</span></div>
+                                <div class="menu__item-title"><i>Golf Tees</i> <span>10.99</span></div>
                                 <p>pickle fries. G.O.A.T sauce</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Calamari</i> <span>14</span></div>
+                                <div class="menu__item-title"><i>Calamari</i> <span>14.99</span></div>
                                 <p>banana pepper. wasabi aioli.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Zip Shrimp</i> <span>14</span></div>
+                                <div class="menu__item-title"><i>Zip Shrimp</i> <span>14.99</span></div>
                                 <p>sauteed tiger shrimp. michigan zip sauce.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Nachos</i> <span>17 SHAREABLE</span></div>
+                                <div class="menu__item-title"><i>Nachos</i> <span>17.99 SHAREABLE</span></div>
                                 <p>cheese. lettuce. pico de gallo. black olive. jalapenos. guacamole. G.O.A.T. sauce. black beans. add chicken or beef for $4</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Golf Balls</i> <span>9</span></div>
+                                <div class="menu__item-title"><i>Golf Balls</i> <span>9.99</span></div>
                                 <p>deep fried brussels sprout. balsamic glaze. toasted pecans.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Garlic Chili Beans</i> <span>8 SHAREABLE</span></div>
+                                <div class="menu__item-title"><i>Garlic Chili Beans</i> <span>8.99 SHAREABLE</span></div>
                                 <p>sautéed edamame beans. garlic. chili flakes.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Fry Caddy</i> <span>6</span></div>
+                                <div class="menu__item-title"><i>Fry Caddy</i> <span>9.99</span></div>
                                 <p>tater tots. waffle fry. onion rings.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>G.O.A.T. Dip</i> <span>14</span></div>
+                                <div class="menu__item-title"><i>G.O.A.T. Dip</i> <span>14.99</span></div>
                                 <p>spinach. warmed cream cheese. goat cheese crumble. panko. pretzel bites. tortilla chips.</p>
                             </div>
                         </div>
                         <div data-tab="7" class="tab__content">
                             <p>All sandwiches come with your choice of fries, soup or house salad. Upgrade to sweet potato fries, caesar salad or greek salad for $2</p>
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>G.O.A.T. Burger</i> <span>14 [5.oz single] </span><span>17 [5.oz double]</span></div>
+                                <div class="menu__item-title"><i>G.O.A.T. Burger</i> <span>14.99 [5.oz single] </span><span>17.99 [5.oz double]</span></div>
                                 <p>havarti. lettuce. caramelized onion. bacon. pickle. G.O.A.T. sauce</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>All American</i> <span>14 [5.oz single] </span><span>17 [5.oz double]</span></div>
+                                <div class="menu__item-title"><i>All American</i> <span>14.99 [5.oz single] </span><span>17.99 [5.oz double]</span></div>
                                 <p>shaved beef. cheddar. jack daniels bbq. onion ring. lettuce. tomato.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Surf N Turf Burger</i> <span>18 [5.oz single] </span><span>24 [5.oz double]</span></div>
+                                <div class="menu__item-title"><i>Surf N Turf Burger</i> <span>18.99 [5.oz single] </span><span>24.99 [5.oz double]</span></div>
                                 <p>
                                     havarti. shredded lobster. lettuce. tomato. truffle aoli.
                                 </p>
@@ -401,13 +401,13 @@
 
                         <div data-tab="8" class="tab__content">
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Sundae Night Excites</i> <span>8</span></div>
+                                <div class="menu__item-title"><i>Sundae Night Excites</i> <span>8.99</span></div>
                                 <p>vanilla ice cream. warm double chocolate brownie. chocolate sauce. mixed nuts.</p>
                             </div>
 
                             <div class="menu__item">
-                                <div class="menu__item-title"><i>Hole In One Cheese Cake</i> <span>8</span></div>
-                                <p>NY style cheescake. raspberry coulis</p>
+                                <div class="menu__item-title"><i>Apple Blossom</i> <span>8.99</span></div>
+                                <p>flaky pastry. brown butter apple. vanilla ice cream.</p>
                             </div>
                         </div>
 
