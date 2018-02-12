@@ -520,7 +520,6 @@
                     <div class="special">
                         <h6>Sundays</h6>
                         <hr>
-                        <p><strong>Brunch Menu</strong> Starting at 10AM</p>
                         <p><strong>NFL Headquarters</strong> Games start at 1PM!</p>
                     </div>
                     <div class="special">
@@ -549,11 +548,11 @@
                         <p><strong>Appy Hour: 2pm-5pm.</strong> Half Priced Appetizers.</p>
                         <p>Finish The Work Week With Us!</p>
                     </div>
-                    <div class="special">
+<!--                     <div class="special">
                         <h6>Saturdays</h6>
                         <hr>
                         <p><strong>Brunch Menu</strong> Starting at 10AM</p>
-                    </div>
+                    </div> -->
                 </div>
 <!--                 <form action="/MailController.php" method="post" class="form" enctype="multipart/form-data">
                     <div class="form__fields">
