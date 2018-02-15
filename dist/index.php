@@ -48,6 +48,28 @@
 
 </script>
 
+<script type="text/javascript">
+    adroll_adv_id = "HR42DGCQYJGLZIZIFXNMF6";
+    adroll_pix_id = "LU3GQEXXC5H23EWU4KYKFW";
+    /* OPTIONAL: provide email to improve user identification */
+    /* adroll_email = "username@example.com"; */
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
+
     <!--[if lt IE 9]>
      <script src="js/polyfill/html5-shiv.js"></script>
   <![endif]-->
@@ -520,39 +542,39 @@
                     <div class="special">
                         <h6>Sundays</h6>
                         <hr>
-                        <p><strong>NFL Headquarters</strong> Games start at 1PM!</p>
+                        <p><strong>AAA Prime Rib Special</strong></p>
                     </div>
                     <div class="special">
                         <h6>Mondays</h6>
                         <hr>
-                        <p><strong>Monday Night Football!</strong> Catch all the action!</p>
+                        <p><strong>Mexican Mondays</strong> Special Mexican menu!</p>
                     </div>
                     <div class="special">
                         <h6>Tuesdays</h6>
                         <hr>
-                        <p><strong>All You Can Eat Wings</strong></p>
+                        <p><strong>$3 Sliders</strong></p>
                     </div>
                     <div class="special">
                         <h6>Wednesday</h6>
                         <hr>
-                        <p><strong>Wine Wednesday:</strong> 25% Off Bottles After 8pm</p>
+                        <p><strong>Kids Eat Free!</strong> 5:00pm - 9:00pm</p>
                     </div>
                     <div class="special">
                         <h6>Thursdays</h6>
                         <hr>
-                        <p><strong>All You Can Eat Wings</strong></p>
+                        <p><strong>All You Can Eat Chicken Wings!</strong> Boneless or traditional</p>
                     </div>
                     <div class="special">
                         <h6>Fridays</h6>
                         <hr>
-                        <p><strong>Appy Hour: 2pm-5pm.</strong> Half Priced Appetizers.</p>
+                        <p><strong>Join Us For Appy Hour</strong> Half Priced Appetizers from 2pm-5pm.</p>
                         <p>Finish The Work Week With Us!</p>
                     </div>
-<!--                     <div class="special">
+                    <div class="special">
                         <h6>Saturdays</h6>
                         <hr>
-                        <p><strong>Brunch Menu</strong> Starting at 10AM</p>
-                    </div> -->
+                        <p><strong>Open at 11am!</strong></p>
+                    </div>
                 </div>
 <!--                 <form action="/MailController.php" method="post" class="form" enctype="multipart/form-data">
                     <div class="form__fields">
