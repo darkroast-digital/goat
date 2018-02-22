@@ -169,7 +169,7 @@
                 <div class="tabs">
                     <nav class="tab__nav">
                         <ul>
-                            <li data-tab="1">Breakfast of Champions</li>
+                            <!-- <li data-tab="1">Breakfast of Champions</li> -->
                             <li data-tab="2">Chicken Wings</li>
                             <li data-tab="3">All Star Eats</li>
                             <!-- <li data-tab="4">Sandwiches & Salads</li> -->
@@ -206,7 +206,7 @@
                             <p>Bacon 4 / Sausage 4 / Toast 4 / Tater Tots 4 / Peameal Bacon 4</p>
                         </div>
                         <div data-tab="2" class="tab__content">
-                            <p>All you can eat chicken wings every Tuesday & Thursday!</p>
+                            <p>All you can eat chicken wings every Thursday!</p>
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>One Lb</i> <span>14.99</span></div>
                                 <p>Sauces: mild. hot. blue cheese. asian. buffalo blue. thai. honey garlic. bull and barrel sauce. hot & sweet garlic. G.O.A.T. sauce.</p>
@@ -483,7 +483,7 @@
 
                             <div class="menu__item">
                                 <div class="menu__item-title"><span>40 / bottle</span></div>
-                                <p>13th Street Burger, Pinot / $10 By The Glass | Kacaba, Cabernet / $10 By The Glass</p>
+                                <p>13th Street Burger, Pinot / $10 By The Glass | Enigma, Cabernet Sauvignon, California / $10 By The Glass</p>
                             </div>
 
                             <div class="menu__item">
@@ -525,7 +525,7 @@
 
                             <h3>Bottled Beer</h3>
 
-                            <p>Budweiser | Bud Light | Labatt Blue | Labatt Blue Light | Keith's | Keith's Red | Michelob Ultra | Mill Street Orgainic | Bud Light Lime | Bud Light Apple | Bud Light Raddler (Can) | Stella | Corona</p>
+                            <p>Budweiser | Bud Light | Labatt Blue | Keith's | Keith's Red | Michelob Ultra | Mill Street Orgainic | Bud Light Lime | Bud Light Apple | Bud Light Raddler (Can) | Stella | Corona | Somersby Original | Somersby Blackberry</p>
                         </div>
                     </div>
                 </div>
