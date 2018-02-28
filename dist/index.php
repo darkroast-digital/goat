@@ -181,7 +181,7 @@
                         </ul>
                     </nav>
                     <div class="tab__body">
-                        <div data-tab="1" class="tab__content">
+                        <!-- <div data-tab="1" class="tab__content">
                             <p>Served Saturday & Sunday from 10:00am until 1:00pm</p>
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>The Hangover</i> <span>10.99</span></div>
@@ -204,7 +204,7 @@
                             </div>
 
                             <p>Bacon 4 / Sausage 4 / Toast 4 / Tater Tots 4 / Peameal Bacon 4</p>
-                        </div>
+                        </div> -->
                         <div data-tab="2" class="tab__content">
                             <p>All you can eat chicken wings every Thursday!</p>
                             <div class="menu__item">
@@ -297,7 +297,7 @@
                                 <p>fresh pasta. shrimp. chorizo. onion. mushrooms. cream.</p>
                             </div>
                         </div>
-                        <div data-tab="4" class="tab__content">
+                        <!-- <div data-tab="4" class="tab__content">
                             <p>All sandwiches come with your choice of fries or house salad.</p>
 
                             <div class="menu__item">
@@ -334,7 +334,7 @@
                                 <div class="menu__item-title"><i>Meatloaf Sandwich</i> <span>15</span></div>
                                 <p>cheddar. lettuce. tomato. bacon. chipotle aioli.</p>
                             </div>
-                        </div>
+                        </div> -->
                         <div data-tab="5" class="tab__content">
                             <div class="menu__item">
                                 <div class="menu__item-title"><i>Caeser Chavez</i> <span>10.99</span></div>
@@ -603,13 +603,13 @@
                 <div class="contact__content-left">
                     <h2>Hours of Operation</h2>
                     <ul>
-                        <li><strong>Monday</strong><span>11:30AM - 10PM</span></li>
-                        <li><strong>Tuesday</strong><span>11:30AM - 10PM</span></li>
-                        <li><strong>Wednesday</strong><span>11:30AM - 10PM</span></li>
-                        <li><strong>Thursday</strong><span>11:30AM - 11PM</span></li>
-                        <li><strong>Friday</strong><span>11:30AM - 1AM</span></li>
-                        <li><strong>Saturday</strong><span>10AM - 1AM</span></li>
-                        <li><strong>Sunday</strong><span>10AM - 10PM</span></li>
+                        <li><strong>Monday</strong><span>11AM - 12AM</span></li>
+                        <li><strong>Tuesday</strong><span>11AM - 12AM</span></li>
+                        <li><strong>Wednesday</strong><span>11AM - 12AM</span></li>
+                        <li><strong>Thursday</strong><span>11AM - 12AM</span></li>
+                        <li><strong>Friday</strong><span>11AM - 2AM</span></li>
+                        <li><strong>Saturday</strong><span>11AM - 2AM</span></li>
+                        <li><strong>Sunday</strong><span>11AM - 12AM</span></li>
                     </ul>
                 </div>
                 <div class="contact__content-right">
